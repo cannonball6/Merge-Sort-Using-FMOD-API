@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A716D321BBF877200FD12F5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A716D311BBF877200FD12F5 /* main.c */; };
+		4A716D401BBF87B800FD12F5 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A716D3F1BBF87B800FD12F5 /* libfmodex.dylib */; };
+		4A716D421BBF87E000FD12F5 /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A716D3F1BBF87B800FD12F5 /* libfmodex.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A716D2C1BBF877200FD12F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4A716D411BBF87CE00FD12F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A716D421BBF87E000FD12F5 /* libfmodex.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A716D2E1BBF877200FD12F5 /* FMOD Tone Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FMOD Tone Generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A716D311BBF877200FD12F5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4A716D381BBF87B800FD12F5 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		4A716D391BBF87B800FD12F5 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		4A716D3A1BBF87B800FD12F5 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		4A716D3B1BBF87B800FD12F5 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		4A716D3C1BBF87B800FD12F5 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		4A716D3D1BBF87B800FD12F5 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		4A716D3E1BBF87B800FD12F5 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		4A716D3F1BBF87B800FD12F5 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A716D2B1BBF877200FD12F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A716D401BBF87B800FD12F5 /* libfmodex.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A716D251BBF877200FD12F5 = {
+			isa = PBXGroup;
+			children = (
+				4A716D381BBF87B800FD12F5 /* fmod_codec.h */,
+				4A716D391BBF87B800FD12F5 /* fmod_dsp.h */,
+				4A716D3A1BBF87B800FD12F5 /* fmod_errors.h */,
+				4A716D3B1BBF87B800FD12F5 /* fmod_memoryinfo.h */,
+				4A716D3C1BBF87B800FD12F5 /* fmod_output.h */,
+				4A716D3D1BBF87B800FD12F5 /* fmod.h */,
+				4A716D3E1BBF87B800FD12F5 /* fmod.hpp */,
+				4A716D3F1BBF87B800FD12F5 /* libfmodex.dylib */,
+				4A716D301BBF877200FD12F5 /* FMOD Tone Generator */,
+				4A716D2F1BBF877200FD12F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A716D2F1BBF877200FD12F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A716D2E1BBF877200FD12F5 /* FMOD Tone Generator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A716D301BBF877200FD12F5 /* FMOD Tone Generator */ = {
+			isa = PBXGroup;
+			children = (
+				4A716D311BBF877200FD12F5 /* main.c */,
+			);
+			path = "FMOD Tone Generator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A716D2D1BBF877200FD12F5 /* FMOD Tone Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A716D351BBF877200FD12F5 /* Build configuration list for PBXNativeTarget "FMOD Tone Generator" */;
+			buildPhases = (
+				4A716D2A1BBF877200FD12F5 /* Sources */,
+				4A716D2B1BBF877200FD12F5 /* Frameworks */,
+				4A716D2C1BBF877200FD12F5 /* CopyFiles */,
+				4A716D411BBF87CE00FD12F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMOD Tone Generator";
+			productName = "FMOD Tone Generator";
+			productReference = 4A716D2E1BBF877200FD12F5 /* FMOD Tone Generator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A716D261BBF877200FD12F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LindleyP;
+				TargetAttributes = {
+					4A716D2D1BBF877200FD12F5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A716D291BBF877200FD12F5 /* Build configuration list for PBXProject "FMOD Tone Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A716D251BBF877200FD12F5;
+			productRefGroup = 4A716D2F1BBF877200FD12F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A716D2D1BBF877200FD12F5 /* FMOD Tone Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A716D2A1BBF877200FD12F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A716D321BBF877200FD12F5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A716D331BBF877200FD12F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A716D341BBF877200FD12F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A716D361BBF877200FD12F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A716D371BBF877200FD12F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A716D291BBF877200FD12F5 /* Build configuration list for PBXProject "FMOD Tone Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A716D331BBF877200FD12F5 /* Debug */,
+				4A716D341BBF877200FD12F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A716D351BBF877200FD12F5 /* Build configuration list for PBXNativeTarget "FMOD Tone Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A716D361BBF877200FD12F5 /* Debug */,
+				4A716D371BBF877200FD12F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A716D261BBF877200FD12F5 /* Project object */;
+}
